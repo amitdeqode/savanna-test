@@ -1,3 +1,5 @@
+# Site is deployed [here](https://savanna-test-three.vercel.app/)
+
 # Project run steps
 
 1. ### `npm i`
