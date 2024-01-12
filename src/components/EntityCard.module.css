@@ -1,0 +1,36 @@
+.card__container {
+  display: flex;
+  align-items: center;
+  width: 48%;
+  margin-bottom: 2rem;
+}
+
+.card__img {
+  width: 100px;
+  height: 100px;
+  background-color: var(--pop);
+  border-radius: 15%;
+}
+
+.card__details {
+  margin-left: 10px;
+  flex: 1;
+}
+
+.card__heading {
+  font-size: 22px;
+  margin: 0 0 10px 0;
+}
+
+.card__desc {
+  margin: 0;
+  color: var(--grey);
+  font-weight: 600;
+  font-size: 12px;
+}
+
+@media screen and (max-width: 768px) {
+  .card__container {
+    width: 96%;
+  }
+}

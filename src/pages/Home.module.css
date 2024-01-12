@@ -1,0 +1,9 @@
+.home__content {
+  padding: 0 8.4rem;
+}
+
+@media screen and (max-width: 768px) {
+  .home__content {
+    padding: 0 2rem;
+  }
+}

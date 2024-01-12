@@ -1,0 +1,32 @@
+.header__container {
+  display: flex;
+  border-bottom: 1px solid var(--secondaryGrey);
+  position: sticky;
+  top: 0;
+  background-color: var(--white);
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 1rem;
+}
+
+.header__logoButton {
+  display: flex;
+  align-items: flex-end;
+}
+
+.header__logo {
+  width: 50px;
+  height: 50px;
+  margin-right: 6rem;
+}
+
+.header__settings-img {
+  width: 30px;
+  height: 30px;
+}
+
+@media screen and (max-width: 768px) {
+  .header__logo {
+    margin-right: 2rem;
+  }
+}

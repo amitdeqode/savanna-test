@@ -1,0 +1,22 @@
+.header__button {
+  background: none;
+  border: none;
+  font: inherit;
+  cursor: pointer;
+  outline: inherit;
+  margin-right: 26px;
+  color: var(--grey);
+  padding: 12px;
+  font-weight: 700;
+}
+
+.header__button--active {
+  color: var(--dark);
+  border-bottom: 2px solid var(--dark);
+}
+
+@media screen and (max-width: 768px) {
+  .header__button {
+    margin-right: 16px;
+  }
+}
